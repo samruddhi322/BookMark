@@ -49,7 +49,7 @@ export default function DashboardPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#1b1430] via-[#211742] to-[#261a55] text-[#e9e4ff]">
-      {/* NAVBAR */}
+      
       <div className="bg-[#241a44] border-b border-[#3a2b66]">
         <div className="max-w-5xl mx-auto px-8 py-4 flex items-center">
           <h1 className="text-2xl font-semibold text-[#f3efff]">
@@ -65,13 +65,13 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* MAIN */}
+     
       <div className="max-w-4xl mx-auto px-6 py-10">
         <div className="mb-12">
           <AddBookmarkDialog onAdded={fetchBookmarks} />
         </div>
 
-        {/* FILTERS */}
+    
         <div className="flex gap-3 mb-10">
   {["All", "Tech", "Study", "Fun"].map(cat => (
     <button

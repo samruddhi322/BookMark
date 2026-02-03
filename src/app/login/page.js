@@ -52,7 +52,6 @@ export default function LoginPage() {
           Login
         </button>
 
-        {/* SIGNUP REDIRECT */}
         <p className="text-sm text-center text-[#cfc6ff]">
           Don&apos;t have an account?{" "}
           <span

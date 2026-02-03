@@ -45,7 +45,7 @@ export default function AddBookmarkDialog({ onAdded }) {
         className="bg-[#1b1430] border-[#3a2b66] text-[#f3efff]"
       />
 
-      {/* CUSTOM DROPDOWN */}
+      
       <div className="relative">
         <button
           onClick={() => setOpen(!open)}

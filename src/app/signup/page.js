@@ -15,14 +15,14 @@ export default function SignupPage() {
       password,
     });
 
-    // ⚠️ Even if rate limit error comes, user is usually already created
+
     alert(
       error
         ? error.message
-        : "Signup successful. Check your email."
+        : "Signup successful. Please login."
     );
 
-    // ✅ ALWAYS redirect to login
+    
     router.push("/login");
   }
 
